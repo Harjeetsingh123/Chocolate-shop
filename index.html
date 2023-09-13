@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Pack</title>
+    <link rel="stylesheet" href="styles.css">
+      <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2015/02/05/01/33/valentines-day-624440_1280.jpg');
+            background-size: cover; /* Adjusts the image size to cover the entire viewport */
+            background-repeat: no-repeat; /* Prevents image repetition */
+        }
+    </style>
+      
+</head>
+<body>
+
+    <h1>Build Your Custom Chocolate Pack</h1>
+
+    
+
+    <div class="chocolates">
+        <label>
+            <input type="checkbox" class="chocolate" data-price="2" value="Dark Chocolate"> Dark Chocolate - ₹2
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="3" value="Milk Chocolate"> Milk Chocolate - ₹3
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="4" value="Liquor Chocolate">Liquor Chocolate - ₹4
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="6" value="Chocolate silk"> Chocolate silk - ₹6
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="8" value="Bubbly Chocolate">Bubbly Chocolate - ₹8
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="3" value="Ferrero Rochear">Ferrero Rochear - ₹3
+        </label>
+        <label>
+         <input type="checkbox" class="chocolate" data-price="5" value="Special Chocolate">Special Chocolate - ₹5
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="4" value="kitkat chocolate"> itkat Chocolate- ₹4
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="6" value="Munch chocolate"> Munch chocolate - ₹6
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" data-price="8" value="Perk chocolate"> Perk chocolate - ₹8
+        </label>
+        <!-- Add more chocolates here -->
+    </div>
+    <div class="selection">
+        <h2>Your Selection</h2>
+        <ul id="selected-chocolates">
+        </ul>
+        <p>Total Price: <span id="total-price">₹0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
